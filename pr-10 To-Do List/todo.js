@@ -85,3 +85,7 @@ function Update() {
     closeModal();
     viewdata();
 }
+
+function clearAll(){
+    localstorage.removeItem("todo);
+}
