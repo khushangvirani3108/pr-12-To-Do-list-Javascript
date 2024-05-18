@@ -86,6 +86,7 @@ function Update() {
     viewdata();
 }
 
-function clearAll(){
-    localstorage.removeItem("todo);
-}
+function deleteAll() {
+        localStorage.removeItem('todo');
+        location.reload();
+    }
